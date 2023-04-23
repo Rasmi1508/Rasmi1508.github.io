@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITBVERSE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">ITBVERSE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6">Selamat Datang di Website Kami</h4>
+        <h3 class="display-1">Hello ITBVERSE</h3>
+        <a href="#portofolio">
+          <button type="button" class="btn btn-danger btn-lg">
+            Cek Portofolio
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- tentang -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+        <p class="text-center">
+          Jelajahi Dunia Dimana Batasnya Adalah Imajinasimu
+        </p>
+        <div class="clearfix pt-5">
+          <img
+            src="img/tentang.jpeg" 
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+          />
+          <p>
+            ITBVERSE merupakan singkatan dari Institut Teknologi Bandung Metaverse. Dimana ITB merupakan salah satu Institut yang ada di Jawa Barat, Indonesia
+          </p>
+          <p>
+            Institut Teknologi Bandung kini hadir dalam Virtual Reality yang memudahkan banyak orang untuk berkunjung, bermain, belajar, berinteraksi bahkan bisa melakukan transaksi. 
+          </p>
+          <p>
+            Di desain dengan beberapa software yang bisa menghasilkan 3D Virtual Reality yang mirip dengan di kehidupan nyata, membuat anda se akan-akan berada langsung di tempat tersebut.
+          </p>
+          <p>
+            Hingga saat ini 3D Virtual Reality ITB masih dalam proses dan tahap penyempurnaan sehingga kedepannya bisa digunakan dan dimanfaatkan sebagaimana mestinya.
+        </div>
+      </div>
+    </div>
+    <!-- portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="portofolio">Portofolio</h2>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/gambar3.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aula Barat</h5>
+                <p class="card-text">
+                  Aula Barat merupakan salah satu landmark di ITB, bersama dengan kembarannya, yaitu Aula Timur yang berada di tepat di seberangnya
+                </p>
+                <div class="container">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Open</button>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Pilih Link:</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="https://youtu.be/Dg0IqBfAJ4E">Lumion Animation</a></li>
+                          <li class="list-group-item"><a href="https://s.id/AulaBarat-ITB">Virtual Reality Hubs Mozilla</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+<!-- ini gambar 2 -->
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/itb1.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Segera</h5>
+                <p class="card-text">
+                  Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera 
+                <div class="container">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Open</button>
+                    </div>
+                    <div class="modal fade" id="myModal2">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Pilih Link:</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <ul class="list-group">
+                              <li class="list-group-item"><a href="https://youtu.be/Dg0IqBfAJ4E">Lumion Animation</a></li>
+                              <li class="list-group-item"><a href="https://www.example4.com">Virtual Reality Hubs Mozilla</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--ini gambar 3  -->
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/itb2.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Segera</h5>
+                <p class="card-text">
+                  Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera 
+                </p>
+                <div class="container">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Open</button>
+                    </div>
+                    <div class="modal fade" id="myModal3">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Pilih Link:</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <ul class="list-group">
+                              <li class="list-group-item"><a href="https://youtu.be/Dg0IqBfAJ4E">Lumion Animation</a></li>
+                              <li class="list-group-item"><a href="https://www.example4.com">Virtual Reality Hubs Mozilla</a></li>
+                            </ul>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <!-- ini gambar 4 -->
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/itb3.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Segera</h5>
+                <p class="card-text">
+                  Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera Segera
+                </p>
+                <div class="container">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Open</button>
+                    </div>
+                    <div class="modal fade" id="myModal4">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Pilih Link:</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <ul class="list-group">
+                              <li class="list-group-item"><a href="https://youtu.be/Dg0IqBfAJ4E">Lumion Animation</a></li>
+                              <li class="list-group-item"><a href="https://www.example4.com">Virtual Reality Hubs Mozilla</a></li>
+                            </ul>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ini gambar 5 -->
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/itb4.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">CIBE</h5>
+                <p class="card-text">
+                  CIBE dibangun untuk meningkatkan fasilitas riset bagi lahan infrastruktur dan pembangunan lingkungan yang dapat mendukung kualitas lulusan ITB
+                </p>
+                <div class="container">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">Open</button>
+                    </div>
+                    <div class="modal fade" id="myModal5">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Pilih Link:</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <ul class="list-group">
+                              <li class="list-group-item"><a href="https://youtu.be/Dg0IqBfAJ4E">Lumion Animation</a></li>
+                              <li class="list-group-item"><a href="https://hubs.mozilla.com/rx7VSGs/austere-gleaming-congregation">Virtual Reality Hubs Mozilla</a></li>
+                            </ul>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ini gambar 6 -->
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/itb5.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Labtek V</h5>
+                <p class="card-text">
+                  Gedung yang mulai dibangun pada tahun 1993 ini memiliki luas sekitar 8700 meter persegi. Setelah pembangunannya selesai, Labtek V diresmikan pada 11 Maret 1995
+                </p>
+                <div class="container">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">Open</button>
+                    </div>
+                    <div class="modal fade" id="myModal6">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Pilih Link:</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <ul class="list-group">
+                              <li class="list-group-item"><a href="https://youtu.be/Dg0IqBfAJ4E">Lumion Animation</a></li>
+                              <li class="list-group-item"><a href="https://hubs.mozilla.com/37tM5cG/gedung-29">Virtual Reality Hubs Mozilla</a></li>
+                            </ul>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="team">Tim Kami</h2>
+        <p>
+          Kami merupakan suatu bagian dan yang tentunya ikut andil dalam pembuatan desain 3D Virtual Reality Institut Teknologi Bandung
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img
+              src="img/Firman.jpeg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Firman</h4>
+            <p>PENS Student</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/fyrmansyahhh/" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="img/Rasmi.jpeg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Rasmi</h4>
+            <p>PENS Student</p>
+            <p>
+              <a href="https://twitter.com/" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/rsmirasmi_/" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+
+            <img
+              src="img/Azriel.jpeg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Azriel</h4>
+            <p>UGM Student</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="img/Bintang.jpeg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Firman Bintang</h4>
+            <p>PENS Student</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="img/Halimah.jpeg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Halimah</h4>
+            <p>PENS Student</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/hi._.halimah/" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="img/Jaya.jpeg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Jaya Raharja</h4>
+            <p>Student</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <p class="text-center">
+          Jika Anda memiliki pertanyaan atau ingin menghubungi kami, silahkan mengisi formulir kontak <br> bawah ini yang akan memudahkan anda untuk mengirimkan pesan atau pertanyaan kepada kami</br>
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Nama"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="No. Phone"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">
+            Kirim Pesan
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center pt-5 pb-5">
+      Copyright © 2023 - Rasmi. All Rights Reserved.
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
